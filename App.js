@@ -48,9 +48,9 @@ const App = () => {
 
   return (
     <SafeAreaView style={{alignItems: 'center', justifyContent: 'center', backgroundColor: 'white', flex: 1}}>
-      <Text>Fetch: {fetchTime} ms</Text>
-      <Text>JSI Cpr: {cprTime} ms</Text>
-      <Text>Axios: {axiosTime} ms</Text>
+      <Text style={{color: 'black'}}>Fetch: {fetchTime} ms</Text>
+      <Text style={{color: 'black'}}>JSI Cpr: {cprTime} ms</Text>
+      <Text style={{color: 'black'}}>Axios: {axiosTime} ms</Text>
       <Button title='Fetch data' onPress={fetchData}/>
     </SafeAreaView>
   );
